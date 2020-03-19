@@ -1,9 +1,10 @@
 public class SortingAlgorithmic {
 
-
+    private static int[] numberArray = {4,8,90,55,40,950,33,40,11,6};
     public static void main(String[] args) {
 
-
+        bubbleSort(numberArray);
+        selectionSort(numberArray);
 
     }
 
@@ -19,7 +20,7 @@ public class SortingAlgorithmic {
                                             }
 
 
-                                            
+
      public static void selectionSort(int[] array) {
             int i, j, min, n =array.length;
             for (i=0; i < n; i++) {
